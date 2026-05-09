@@ -34,14 +34,6 @@
         </div>
     </a>
     <br>
-    <a href="https://zernio.com/?utm_source=github&utm_medium=readme&utm_campaign=tiktok_api" target="_blank">
-        <img src="https://raw.githubusercontent.com/davidteather/TikTok-Api/main/imgs/zernio.png" width="100" alt="Zernio">
-        <b></b>
-        <div>
-         <b>Zernio</b> — 跳过 TikTok 的 API 审核流程。通过我们预审核通过的 TikTok 集成发布视频、定时发帖、管理评论并拉取分析数据。还支持另外 13 个平台。
-        </div>
-    </a>
-    <br>
     <a href="https://www.webshare.io/?referral_code=3x5812idzzzp" target="_blank">
         <img src="https://raw.githubusercontent.com/davidteather/TikTok-Api/main/imgs/webshare.png" width="100" alt="Webshare Proxies">
         <b></b>
