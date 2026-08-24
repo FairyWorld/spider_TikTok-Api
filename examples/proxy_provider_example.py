@@ -4,7 +4,7 @@ Proxy Provider Example
 This example demonstrates how to use the ProxyProviders package with TikTok-Api
 for smart proxy rotation and management.
 
-ProxyProviders Documentation: https://davidteather.github.io/proxyproviders
+ProxyProviders Documentation: https://go.dteather.com/proxyproviders-docs?src=tiktokapi&placement=example
 
 Requirements:
     pip install TikTokApi proxyproviders
@@ -165,7 +165,9 @@ async def main():
     """Run all examples"""
     if not os.environ.get("WEBSHARE_API_KEY"):
         print("Warning: WEBSHARE_API_KEY not set. Some examples will be skipped.")
-        print("Get your API key from: https://www.webshare.io")
+        print(
+            "Get your API key from: https://go.dteather.com/webshare?src=tiktokapi&placement=example (affiliate link)"
+        )
 
     if not ms_token:
         print("Warning: ms_token not set. Sessions may fail.")

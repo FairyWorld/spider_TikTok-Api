@@ -34,7 +34,7 @@
         </div>
     </a>
     <br>
-    <a href="https://www.webshare.io/?referral_code=3x5812idzzzp" target="_blank">
+    <a href="https://go.dteather.com/webshare?src=tiktokapi&placement=readme-cn" target="_blank">
         <img src="https://raw.githubusercontent.com/davidteather/TikTok-Api/main/imgs/webshare.png" width="100" alt="Webshare Proxies">
         <b></b>
         <div>
@@ -71,7 +71,7 @@
 
 按照以下步骤开始使用本 API。
 
-注意：如果你想系统学习网页爬虫，请查看我开源免费的课程：[Everything Web Scraping](https://github.com/davidteather/everything-web-scraping)
+注意：如果你想系统学习网页爬虫，请查看我开源免费的课程：[Everything Web Scraping](https://go.dteather.com/everything-web-scraping?src=tiktokapi&placement=readme-cn)
 
 <a name="how-to-support-the-project"></a>
 ### 如何支持本项目
@@ -113,7 +113,8 @@ docker run -v TikTokApi --rm tiktokapi:latest python3 your_script.py
 ### 常见问题
 
 - 空响应异常（EmptyResponseException）——表示 TikTok 拦截了请求并检测到你是机器人。这可能来自你的环境设置或库本身
-  - 你可能需要代理才能稳定抓取 TikTok。我做了一节[代理课程](https://github.com/davidteather/everything-web-scraping/tree/main/002-proxies)，讲解住宅代理与数据中心代理的区别等内容
+  - 你可能需要代理才能稳定抓取 TikTok。我做了一节[代理课程](https://go.dteather.com/everything-web-scraping-proxies?src=tiktokapi&placement=readme-cn)，讲解住宅代理与数据中心代理的区别等内容。我个人使用 [Webshare 的住宅代理](https://go.dteather.com/webshare?src=tiktokapi&placement=readme-cn)（联盟链接）效果不错，你也可以先试试他们的免费数据中心 IP 或其他更便宜的服务商
+  - 不确定哪家代理服务商适合你？本库集成了我的 [ProxyProviders](https://go.dteather.com/proxyproviders?src=tiktokapi&placement=readme-cn) 包，只需一行 `create_sessions(proxy_provider=...)` 即可轻松试用并切换不同的代理服务商。用法参见 [examples/proxy_provider_example.py](https://github.com/davidteather/TikTok-Api/blob/main/examples/proxy_provider_example.py)
 
 - “Browser has no attribute …”——请确认已执行 `python3 -m playwright install`。若问题仍在，请参考 [playwright-python](https://github.com/microsoft/playwright-python) 的快速上手指南
 

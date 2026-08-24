@@ -34,15 +34,7 @@ These sponsors have paid to be placed here or are my own affiliate links which I
         </div>
     </a>
     <br>
-    <a href="https://www.rapidproxy.io/?ref=tiktok" target="_blank">
-        <img src="https://raw.githubusercontent.com/davidteather/TikTok-Api/main/imgs/rapidproxy.png" width="100" alt="RapidProxy API">
-        <b></b>
-        <div>
-         <b>RapidProxy</b> Power your scraping and automation with fast, reliable residential proxies.<br>Get 90M+ residential IPs, 500MB free traffic, non-expiring bandwidth, and pricing from just $0.65/GB with RapidProxy.
-        </div>
-    </a>
-    <br>
-    <a href="https://www.webshare.io/?referral_code=3x5812idzzzp" target="_blank">
+    <a href="https://go.dteather.com/webshare?src=tiktokapi&placement=readme" target="_blank">
         <img src="https://raw.githubusercontent.com/davidteather/TikTok-Api/main/imgs/webshare.png" width="100" alt="Webshare Proxies">
         <b></b>
         <div>
@@ -69,7 +61,7 @@ You can find the full documentation [here](https://davidteather.github.io/TikTok
 
 To get started using this API follow the instructions below.
 
-**Note:** If you want to learn how to web scrape websites check my [free and open-source course for learning everything web scraping](https://github.com/davidteather/everything-web-scraping)
+**Note:** If you want to learn how to web scrape websites check my [free and open-source course for learning everything web scraping](https://go.dteather.com/everything-web-scraping?src=tiktokapi&placement=readme)
 
 ### How to Support The Project
 
@@ -108,7 +100,8 @@ docker run -v TikTokApi --rm tiktokapi:latest python3 your_script.py
 ### Common Issues
 
 - **EmptyResponseException** - this means TikTok is blocking the request and detects you're a bot. This can be a problem with your setup or the library itself
-  - you may need a proxy to successfully scrape TikTok, I've made a [web scraping lesson](https://github.com/davidteather/everything-web-scraping/tree/main/002-proxies) explaining the differences of "tiers" of proxies, I've personally had success with [webshare's residential proxies](https://www.webshare.io/?referral_code=3x5812idzzzp) (affiliate link), but you might have success on their free data center IPs or a cheaper competitor.
+  - you may need a proxy to successfully scrape TikTok, I've made a [web scraping lesson](https://go.dteather.com/everything-web-scraping-proxies?src=tiktokapi&placement=readme) explaining the differences of "tiers" of proxies, I've personally had success with [webshare's residential proxies](https://go.dteather.com/webshare?src=tiktokapi&placement=readme) (affiliate link), but you might have success on their free data center IPs or a cheaper competitor.
+  - not sure which proxy provider will work for you? This library integrates with my [ProxyProviders](https://go.dteather.com/proxyproviders?src=tiktokapi&placement=readme) package, which makes it easy to try out and switch between different proxy providers with a single line via `create_sessions(proxy_provider=...)`. See [examples/proxy_provider_example.py](https://github.com/davidteather/TikTok-Api/blob/main/examples/proxy_provider_example.py) for usage.
 
 - **Browser Has no Attribute** - make sure you ran `python3 -m playwright install`, if your error persists try the [playwright-python](https://github.com/microsoft/playwright-python) quickstart guide and diagnose issues from there.
 
